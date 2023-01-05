@@ -5,7 +5,7 @@
 
 Console.WriteLine("Enter your name:"); //Output
 //string - sõne
-string userName = GetUserName(); //Input
+string userName = Console.ReadLine(); //Input
 
 Console.WriteLine("Hello" + ", " + userName + "!"); //Output
 
